@@ -1,0 +1,37 @@
+footer{
+    @include gradientes;
+    @include centrar;
+         .container__footer{
+             @include flex-wrap;
+             @include centrar;
+         }
+     }
+ 
+ .box__footer{
+     @include flex-direction;
+             .logo img{
+                  width: 150px;
+             }
+         }
+ 
+ .box__footer .nosotros{
+     @include bordes;
+     @include tipografia;
+     font-size: map-get($font-size, large);
+ }
+ 
+ .box__footer .redes{
+     @include bordes;
+     @include tipografia;
+     font-size: map-get($font-size, large);
+ }
+             
+ .box__footer a{
+     @include margenes;
+     @include color;
+     font-size: map-get($font-size, medium);
+     font-weight: map-get($font-weights, bold);
+             &:hover{
+                  opacity: 0.3;
+             }
+         }

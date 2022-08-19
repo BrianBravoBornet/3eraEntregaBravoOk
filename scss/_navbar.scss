@@ -1,0 +1,14 @@
+.navbar {
+    @include tipografia;
+    font-weight: map-get($font-weights, bold);
+    font-size: map-get($font-size, large);
+    
+        .navbar-brand {
+            @extend .navbar;
+            @include bordes;
+        } 
+}
+
+.btn {
+    @include tipografia;
+}

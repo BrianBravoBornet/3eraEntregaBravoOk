@@ -1,0 +1,9 @@
+.promos {
+    @include centrar;
+        h2 {
+            @include tipografia;
+            @include bordes;
+            font-weight: map-get($font-weights, small);
+            font-size: map-get($font-size, large);
+        }
+}

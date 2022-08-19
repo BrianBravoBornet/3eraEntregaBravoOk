@@ -1,0 +1,9 @@
+#cartas {
+    @include centrar;
+    font-weight: map-get($font-weights, medium);
+}
+
+.card-text {
+    font-family: 'Cuprum', sans-serif;
+    font-size: map-get($font-size, small);
+}

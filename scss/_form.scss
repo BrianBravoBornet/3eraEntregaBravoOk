@@ -1,0 +1,13 @@
+form {
+    @include tipografia;
+    @include centrar;
+    font-size: map-get($font-size, medium);
+    font-weight: map-get($font-weights, small);
+       legend {
+            font-size: map-get($font-size, large);
+        }
+}
+
+#mensaje {
+  width: map-get($widths, low);
+}

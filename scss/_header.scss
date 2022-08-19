@@ -1,0 +1,6 @@
+header {
+    @include tipografia;
+    @include gradientes;
+    @include centrar;
+    font-size: map-get($font-size, large); 
+}
