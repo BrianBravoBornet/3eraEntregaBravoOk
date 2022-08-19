@@ -1,0 +1,45 @@
+@mixin tipografia {
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cuprum', sans-serif;
+    color: greenyellow;
+    background-color: gray;
+    
+}
+
+@mixin bordes {
+    border-color: greenyellow;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+@mixin gradientes {
+    background-image: radial-gradient(grey, black);
+}
+
+@mixin centrar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+@mixin flex-direction{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+@mixin margenes {
+    margin-top: 10px;
+}
+
+@mixin color {
+    color: greenyellow;
+}
